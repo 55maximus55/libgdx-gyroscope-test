@@ -1,0 +1,26 @@
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+
+dependencies {
+	api "com.badlogicgames.gdx:gdx:$gdxVersion"
+	api "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+	api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+	api "com.badlogicgames.ashley:ashley:$ashleyVersion"
+	api "com.badlogicgames.box2dlights:box2dlights:$box2dlightsVersion"
+	api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+	api "io.github.libktx:ktx-actors:$ktxActorsVersion"
+	api "io.github.libktx:ktx-async:$ktxAsyncVersion"
+	api "io.github.libktx:ktx-ashley:$ktxAshleyVersion"
+	api "io.github.libktx:ktx-assets:$ktxAssetsVersion"
+	api "net.dermetfan.libgdx-utils:libgdx-utils:$utilsVersion"
+	api "io.github.libktx:ktx-math:$ktxMathVersion"
+	api "io.github.libktx:ktx-app:$ktxAppVersion"
+	api "io.github.libktx:ktx-box2d:$ktxBox2dVersion"
+	api "io.github.libktx:ktx-i18n:$ktxI18nVersion"
+	api "io.github.libktx:ktx-log:$ktxLogVersion"
+	api "io.github.libktx:ktx-scene2d:$ktxScene2DVersion"
+	api "io.github.libktx:ktx-style:$ktxStyleVersion"
+	api "net.dermetfan.libgdx-utils:libgdx-utils-box2d:$utilsBox2dVersion"
+	api "io.github.libktx:ktx-inject:$ktxInjectVersion"
+	api "io.github.libktx:ktx-collections:$ktxCollectionsVersion"
+}
